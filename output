@@ -1,0 +1,111 @@
+nohup: ignoring input
+comment route
+POST comment route
+{ Name: 'Mickey', Comment: 'Hello' }
+Name: Mickey
+Comment: Hello
+[Error: /opt/bitnami/nodejs/lib/node_modules/mongodb/node_modules/bson/build/Release/bson.node: invalid ELF header]
+js-bson: Failed to load c++ bson extension, using pure JS version
+Record added as 5632fc786584c91969f425e8
+comment route
+Document Array: 
+[ { _id: 562fe066c3e1cf5e4cf70575,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 562fe0e0c3e1cf5e4cf70576,
+    Name: 'Nick Hebert',
+    Comment: 'Boooooo!' },
+  { _id: 562fe44558eb6cd64c2292ac,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 562fe48b6d314de74caf9190,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 562fe4916d314de74caf9191,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 562fe4c2648825fe4c94d9c1,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 562fe539648825fe4c94d9c2,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 562fe5426a3573154d386f67,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 562fe5b96a3573154d386f68,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 562fe61cbf744b2c4d56961a,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5632771da20a1e3d63a5dc6a,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5632f415bf8138b767c1bf2e,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5632f473bf8138b767c1bf2f,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5632f47bbf8138b767c1bf30,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5632f47dbf8138b767c1bf31,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5632f47dbf8138b767c1bf32,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5632f52ebf8138b767c1bf33,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5632f9d98baac18a68e288c3,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5632f9db8baac18a68e288c4,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5632fa4e8baac18a68e288c5,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5632fa508baac18a68e288c6,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5632fb5a8baac18a68e288c7,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5632fb658baac18a68e288c8,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5632fb668baac18a68e288c9,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5632fb678baac18a68e288ca,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5632fb8f8baac18a68e288cb,
+    Name: 'Mickey',
+    Comment: 'Pastries' },
+  { _id: 5632fc049d0a88fe684741f7,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5632fc786584c91969f425e8,
+    Name: 'Mickey',
+    Comment: 'Hello' } ]
+In GET
+/opt/bitnami/nodejs/lib/node_modules/mongodb/lib/mongodb/connection/base.js:246
+        throw message;      
+        ^
+
+ReferenceError: $ is not defined
+    at /home/bitnami/MongoPractice/simple.js:52:7
+    at /opt/bitnami/nodejs/lib/node_modules/mongodb/lib/mongodb/cursor.js:172:16
+    at commandHandler (/opt/bitnami/nodejs/lib/node_modules/mongodb/lib/mongodb/cursor.js:720:16)
+    at /opt/bitnami/nodejs/lib/node_modules/mongodb/lib/mongodb/db.js:1882:9
+    at Server.Base._callHandler (/opt/bitnami/nodejs/lib/node_modules/mongodb/lib/mongodb/connection/base.js:453:41)
+    at /opt/bitnami/nodejs/lib/node_modules/mongodb/lib/mongodb/connection/server.js:487:18
+    at MongoReply.parseBody (/opt/bitnami/nodejs/lib/node_modules/mongodb/lib/mongodb/responses/mongo_reply.js:68:5)
+    at null.<anonymous> (/opt/bitnami/nodejs/lib/node_modules/mongodb/lib/mongodb/connection/server.js:445:20)
+    at emitOne (events.js:77:13)
+    at emit (events.js:169:7)
